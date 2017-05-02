@@ -5,7 +5,7 @@
  *      ammo comaptibility
  *
  */
-#include "script_component.hpp"
+#define RHA(mm,speed) caliber=(mm/((15*speed)/1000));
 
 class CfgAmmo {
     // Penetrator Base

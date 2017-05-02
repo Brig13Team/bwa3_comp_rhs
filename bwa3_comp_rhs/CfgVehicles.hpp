@@ -1,3 +1,13 @@
+/*
+ *  Author: Dorbedo
+ *
+ *  Description:
+ *      Changes the hitpointvalues to make it less incompatible with rhs
+ *      Full compatibility can't be achieved
+ *
+ */
+#include "script_component.hpp"
+
 class CfgVehicles {
     class All {
         class Turrets;
@@ -132,13 +142,13 @@ class CfgVehicles {
     class BWA3_Puma_Tropen: BWA3_Puma_base {};
 
 	/*
-	rhs_ammo_3bk18 =  500 + 215 
-	
-	hull = 
-	
-	
+	rhs_ammo_3bk18 =  500 + 215
+
+	hull =
+
+
 	*/
-	
+
     class BWA3_Leopard_base: Tank_F {
         armor = 650;
         armorStructural = 1.2;

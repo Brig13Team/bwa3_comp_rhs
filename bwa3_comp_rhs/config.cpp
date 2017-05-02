@@ -8,7 +8,7 @@
 #include "script_component.hpp"
 
 class CfgPatches {
-    class ADDON {
+    class bwa3_compat_rhs {
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
@@ -30,7 +30,7 @@ class CfgPatches {
 };
 
 class CfgMods {
-    class ADDON {
+    class bwa3_compat_rhs {
         dir = "@bwa3_comp_rhs";
         name = "BWA3-RHS Compatibility Patch";
         picture = "A3\Ui_f\data\Logos\arma3_expansion_alpha_ca";
